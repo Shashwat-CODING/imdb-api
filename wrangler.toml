@@ -1,4 +1,4 @@
-name = "imdb-api"
+name = "strflixapi"
 
 workers_dev = true
 compatibility_date = "2023-02-28"
