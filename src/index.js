@@ -9,7 +9,7 @@ import userRoutes from "./routes/user";
 
 const app = new Hono();
 
-app.use("*", cors());
+app.use("*", cors({ origin: "*" }));
 app.use("*", cache);
 
 app.route("/search", search);
