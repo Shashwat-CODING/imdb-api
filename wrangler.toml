@@ -1,5 +1,5 @@
-name = "imdb-api"
-
+# wrangler.toml
+name = 'strflixapi'
 workers_dev = true
 compatibility_date = "2023-02-28"
 main = "src/index.js"
